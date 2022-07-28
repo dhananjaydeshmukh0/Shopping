@@ -1,0 +1,64 @@
+body{
+  background-color: #fcfcfc;
+}
+.container{
+  max-width: 1300px;
+  margin: 0 auto;  
+}
+.nav-container{
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.08);
+}
+.meal-navbar{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+.right{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: rgb(234, 243, 252);
+  border-radius: 5px;
+  color: dodgerblue;
+}
+
+.right .icon{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+.right .quantity{
+  padding: 5px 20px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 14px;
+  border-radius: 50px;
+}
+/*background*/
+.background-container{
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../public/images/meals.jpg);
+}
+.message{
+  position: absolute;
+  width: 500px;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  background: rgba(255,255,255,0.6);
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  font-weight: 500;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.08);
+  
+}
